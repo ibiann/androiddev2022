@@ -1,6 +1,5 @@
 package vn.edu.usth.weather;
 
-
 import android.graphics.Color;
 import android.os.Bundle;
 
@@ -9,13 +8,15 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 
-import java.util.ArrayList;
-
-public class ForecastFragment extends Fragment {
+public class ForecastFragment<Saturday> extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
+    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
@@ -26,6 +27,7 @@ public class ForecastFragment extends Fragment {
     public ForecastFragment() {
         // Required empty public constructor
     }
+
 
     public static ForecastFragment newInstance(String param1, String param2) {
         ForecastFragment fragment = new ForecastFragment();
@@ -44,13 +46,31 @@ public class ForecastFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-
-    @SuppressLint({"UseCompatLoadingForDrawables", "SetTextI18n", "RtlHardcoded"})
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View view = (View) inflater.inflate(R.layout.fragment_forecast, container, false);
-        view.setBackgroundColor(0xFFFFFF);
-        return view;
-    }
 }
+
+//    @Override
+//    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+//                             Bundle savedInstanceState) {
+//
+//        LinearLayout Forecast = new LinearLayout(getActivity());
+//        Forecast.setBackgroundColor(0xFFC1C1C1);
+//        Forecast.setOrientation(LinearLayout.VERTICAL);
+//
+//        TextView Saturday = new TextView(getActivity());
+//        Saturday.setText("Saturday");
+//        ImageView sun = new ImageView(getActivity());
+//        sun.setImageResource(R.drawable.Sun);
+//
+//        TextView Sunday = new TextView(getActivity());
+//        Sunday.setText("Sunday");
+//        ImageView rain = new ImageView(getActivity());
+//        rain.setImageResource(R.drawable.Rain);
+//
+//        TextView Monday = new TextView(getActivity());
+//        Monday.setText("Sunday");
+//        ImageView thunder = new ImageView(getActivity());
+//        thunder.setImageResource(R.drawable.Thunder);
+//
+//        return Forecast;
+//    }
+//}
