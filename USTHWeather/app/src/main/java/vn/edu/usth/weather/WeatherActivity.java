@@ -27,19 +27,19 @@ public class WeatherActivity extends AppCompatActivity {
         new TabLayoutMediator(tabLayout, viewPager2, (tab, position) -> {
             switch (position){
                 case 0:
-                    tab.setText("HANOI, VIETNAM");
+                    tab.setText(getString(R.string.Tab0));
                     break;
                 case 1:
-                    tab.setText("PARIS, FRANCE");
+                    tab.setText(getString(R.string.Tab1));
                     break;
                 case 2:
-                    tab.setText("TOULOUSE, FRANCE");
+                    tab.setText(getString(R.string.Tab2));
                     break;
             }
         }).attach();
     //ForecastFragment forecastFragment = new ForecastFragment();
     //getSupportFragmentManager().beginTransaction().add(R.id.container, forecastFragment).commit();
-    @Override
+        @Override
     protected void onStart() {
         super.onStart();
         Log.i(tag, "On Starting");
