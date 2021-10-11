@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import vn.edu.usth.weather.R;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link WeatherAndForecastFragment#newInstance} factory method to
