@@ -1,19 +1,42 @@
 package vn.edu.usth.weather;
 import androidx.appcompat.app.AppCompatActivity;
 
+import androidx.annotation.NonNull;
 import android.os.Bundle;
 import android.util.Log;
+import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.tabs.TabLayoutMediator;
+
 
 public class WeatherActivity extends AppCompatActivity {
     public static final String tag = "WeatherActivity";
+    private ViewPagerFragmentAdapter viewPagerFragmentAdapter;
+    private ViewPager2 viewPager2;
+    private TabLayout tabLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
+        Log.i(TAG, "Program is created");
 
+        viewPager2 = findViewById(R.id.view_pager);
+        viewPagerFragmentAdapter = new ViewPagerFragmentAdapter(this);
+        viewPager2.setAdapter(viewPagerFragmentAdapter);
 
-    }
-
+        tabLayout = findViewById(R.id.tab_layout);
+        new TabLayoutMediator(tabLayout, viewPager2, (tab, position) -> {
+            switch (position){
+                case 0:
+                    tab.setText("HANOI, VIETNAM");
+                    break;
+                case 1:
+                    tab.setText("PARIS, FRANCE");
+                    break;
+                case 2:
+                    tab.setText("TOULOUSE, FRANCE");
+                    break;
+            }
+        }).attach();
     //ForecastFragment forecastFragment = new ForecastFragment();
     //getSupportFragmentManager().beginTransaction().add(R.id.container, forecastFragment).commit();
     @Override
