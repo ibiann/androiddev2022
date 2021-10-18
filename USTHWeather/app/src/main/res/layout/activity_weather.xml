@@ -7,31 +7,7 @@
     android:padding="10dp"
     android:orientation="vertical"
     tools:context=".WeatherActivity">
-    <!--    android:id="@+id/container"-->
 
-    <!--    <FrameLayout-->
-    <!--        android:id="@+id/container"-->
-    <!--        android:layout_width="220dp"-->
-    <!--        android:layout_height="162dp"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintHorizontal_bias="0.497"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent"-->
-    <!--        app:layout_constraintVertical_bias="0.165">-->
-    <!--    </FrameLayout>-->
-    <!--    <fragment-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="match_parent"-->
-    <!--        android:layout_weight="1"-->
-    <!--        android:id="@+id/weather"-->
-    <!--        android:name="vn.edu.usth.usthweather.WeatherFragment"/>-->
-    <!--    <fragment-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="match_parent"-->
-    <!--        android:layout_weight="1"-->
-    <!--        android:id="@+id/forcecast"-->
-    <!--        android:name="vn.edu.usth.usthweather.ForecastFragment"/>-->
     <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

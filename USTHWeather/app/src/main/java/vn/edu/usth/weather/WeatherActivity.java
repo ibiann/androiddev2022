@@ -24,6 +24,7 @@ public class WeatherActivity extends AppCompatActivity {
         viewPager2.setAdapter(viewPagerFragmentAdapter);
 
         tabLayout = findViewById(R.id.tab_layout);
+
         new TabLayoutMediator(tabLayout, viewPager2, (tab, position) -> {
             switch (position){
                 case 0:
@@ -36,10 +37,12 @@ public class WeatherActivity extends AppCompatActivity {
                     tab.setText(getString(R.string.Tab2));
                     break;
             }
+
         }).attach();
     //ForecastFragment forecastFragment = new ForecastFragment();
     //getSupportFragmentManager().beginTransaction().add(R.id.container, forecastFragment).commit();
-        @Override
+
+    @Override
     protected void onStart() {
         super.onStart();
         Log.i(tag, "On Starting");

@@ -5,18 +5,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/weatherandforecast"
-    tools:context=".WeatherAndForecastFragment">
+    tools:context=".WeatherForecastFragment">
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:id="@+id/weather"
-        android:name="vn.edu.usth.usth.weather.WeatherFragment"/>
+        android:name="vn.edu.usth.weather.WeatherFragment"/>
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:id="@+id/forcecast"
-        android:name="vn.edu.usth.usth.weather.ForecastFragment"/>
+        android:name="vn.edu.usth.weather.ForecastFragment"/>
 
 </LinearLayout>
