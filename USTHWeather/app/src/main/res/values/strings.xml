@@ -2,25 +2,41 @@
     <string name="app_name">USTH Weather</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="Monday">Mon</string>
-    <string name="MonWea">Partly Cloudy \n24&#8451; - 31&#8451;</string>
+    <string name="MonWeather">Partly Cloudy \n24&#8451; - 31&#8451;</string>
 
     <string name="Tuesday">Tue</string>
-    <string name="TueWea">Foggy and Humid \n18&#8451; - 20&#8451;</string>
+    <string name="TueWeather">Foggy and Humid \n18&#8451; - 20&#8451;</string>
 
     <string name="Wednesday">Wed</string>
-    <string name="WedWea">Heavy rain \n15&#8451; - 17&#8451;</string>
+    <string name="WedWeather">Heavy rain \n15&#8451; - 17&#8451;</string>
 
     <string name="Thursday">Thu</string>
-    <string name="ThuWea">Heavy rain \n5&#8451; - 10&#8451;</string>
+    <string name="ThuWeather">Heavy rain \n5&#8451; - 10&#8451;</string>
 
     <string name="Friday">Fri</string>
-    <string name="FriWea">Snow \n-3&#8451; - 3&#8451;</string>
+    <string name="FriWeather">Snow \n-3&#8451; - 3&#8451;</string>
 
     <string name="Saturday">Sat</string>
-    <string name="SatWea">Thunder storm \n10&#8451; - 15&#8451;</string>
+    <string name="SatWeather">Thunder storm \n10&#8451; - 15&#8451;</string>
 
     <string name="Sunday">Sun</string>
-    <string name="SunWea">Foggy and Humid \n15&#8451; - 18&#8451;</string>
+    <string name="SunWeather">Foggy and Humid \n15&#8451; - 18&#8451;</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
 </resources>

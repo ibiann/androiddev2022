@@ -4,11 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/AsusTek/Project/androiddev2022/USTHWeather/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/AsusTek/Project/androiddev2022/USTHWeather/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/AsusTek/Project/androiddev2022/USTHWeather/app/src/main/res/layout/activity_weather.xml" value="0.12183383991894631" />
         <entry key="..\:/Users/AsusTek/Project/androiddev2022/USTHWeather/app/src/main/res/layout/forecast_fragment.xml" value="0.12183383991894631" />
         <entry key="..\:/Users/AsusTek/Project/androiddev2022/USTHWeather/app/src/main/res/layout/fragment_weather.xml" value="0.12183383991894631" />
         <entry key="..\:/Users/AsusTek/Project/androiddev2022/USTHWeather/app/src/main/res/layout/fragment_weather_and_forecast.xml" value="0.12183383991894631" />
         <entry key="..\:/Users/AsusTek/Project/androiddev2022/USTHWeather/app/src/main/res/layout/fragment_weather_forecast.xml" value="0.10400000000000001" />
+        <entry key="..\:/Users/AsusTek/Project/androiddev2022/USTHWeather/app/src/main/res/menu/main_menu.xml" value="0.20462962962962963" />
+        <entry key="..\:/Users/AsusTek/Project/androiddev2022/USTHWeather/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26666666666666666" />
         <entry key="..\:/Users/AsusTek/USTHWeather/app/src/main/res/layout/activity_main.xml" value="0.13360507246376813" />
         <entry key="..\:/Users/AsusTek/USTHWeather/app/src/main/res/layout/activity_weather.xml" value="0.13360507246376813" />
         <entry key="..\:/Users/AsusTek/androiddev2022/USTHWeather/app/src/main/res/layout/activity_weather.xml" value="0.1265625" />
